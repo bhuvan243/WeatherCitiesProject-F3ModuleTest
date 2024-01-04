@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+main {
+  margin: 20px 100px;
+  padding: 20px 40px;
+}
+/* city card */
+#weather-cards-containers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.city-container {
+  position: relative;
+  background: url("./Assets/cardBg.svg");
+  background-repeat: no-repeat;
+  width: 342px;
+  height: 184px;
+  padding: 30px 20px 20px 20px;
+  border-radius: 20px;
+}
+.degree {
+  font-size: 64px;
+  margin-bottom: 10px;
+}
+.temperature {
+  font-size: 13px;
+  color: #aea2d7;
+  margin-bottom: 5px;
+}
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+}
+.city-name{
+    font-weight: 300;
+}
+.cloud-type {
+  font-size: 13px;
+  font-weight: 200;
+  padding-right: 10px;
+}
+.cloud-img {
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+}
